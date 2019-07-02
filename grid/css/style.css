@@ -1,0 +1,80 @@
+body{
+    background-color: gray;
+}
+.ccontainer{
+    margin: 0 auto;
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+}
+.head{
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 20px;
+    color: rgb(245, 137, 155);
+    font: bold;
+}
+.top{
+    display: grid;
+    justify-content: center; 
+    align-items: center; 
+}
+.mid{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    display: grid;
+}
+div .mid1{
+    background-image: url("../img/london.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+div .mid2{
+    background-image: url("../img/napa.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+div .mid3{
+    background-image: url("../img/san-francisco-2.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+div .mid4{
+    background-image: url("../img/san-francisco-2.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+div .mid5{
+    background-image: url("../img/new-york.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+div .mid6{
+    background-image: url("../img/new-york.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: 100% 100%;
+}
+.mid01{
+    display: grid;
+    width: 10px;
+    height: 10px; 
+    color: white;
+}
+.batt {  
+    background-color:rgb(236, 105, 127);
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 1px solid;
+    color: white;
+    cursor: pointer;
+}
